@@ -16,7 +16,7 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         
-        views = ["1", "2", "3"]
+        views = ["xxx", "yyy", "zzz"]
         
        
         
@@ -30,7 +30,7 @@ class TableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("MultiCell")
-        cell?.textLabel?.text = names[indexPath.row]
+        cell?.textLabel?.text = "Go to " + String(views[indexPath.row])
         return cell!
     }
     
