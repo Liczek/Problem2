@@ -18,7 +18,7 @@ class TableViewController: UITableViewController {
         
         views = ["1", "2", "3"]
         
-       // for i in 0..<views.count
+       
         
         names = ["Go to \(views[0])", "Go to \(views[1])", "Go to \(views[2])"]
     }
